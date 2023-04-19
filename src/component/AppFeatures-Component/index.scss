@@ -1,0 +1,46 @@
+#cardData{
+    display: flex;
+    align-items: center;
+}
+#AppFeatureData{
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 400px;
+    padding-top: 70px;
+}
+#heading{
+    font-size: 44px;
+    
+}
+#appFeatureComp{
+    padding-top: 50px;
+}
+.chord.MuiPaper-root{
+    box-shadow: none;
+}
+.mobileImage.MuiPaper-root{
+    box-shadow: none;
+    padding: 8px 170px 0px 0px;
+}
+.mobileImage{
+    padding-right: 270px;
+}
+#mobile{
+    width: 340px;
+    height: 751px;
+
+}
+#appFeatureDec{
+    position: relative;
+}
+#appFeatureDec::after{
+    
+    width: 117%;
+    height: 36px;
+    content: " ";
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.65) -25%, rgba(0, 0, 0, 0) 55%);
+    margin-top: 32px;
+}

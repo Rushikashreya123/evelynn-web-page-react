@@ -1,0 +1,55 @@
+.container.MuiGrid-root{
+    margin: 0 auto;
+    // padding: 0px 1rem;
+    max-width: 1170px;
+    // box-shadow: none;
+    padding-top: 0px;
+}
+.mobile.MuiPaper-root{
+    box-shadow: none;
+    padding-right: 170px;
+}
+.mobileData.MuiPaper-root{
+    
+box-shadow: none;
+text-align: center;
+padding-top: 195px;
+padding-right: 103px;
+
+
+}
+#mobile{
+    width: 362px;
+    height: 751px;
+}
+.mobileData{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+
+#first-content{
+    color:#3f51b5;
+    font-size: 25px;
+}
+#second-content{
+    font-weight: 700px;
+    font-size:45px;
+    
+}
+#third-content{
+    font-size: 16px;
+    font-weight: 600px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.buttoncomp.MuiButtonBase-root.MuiButton-root{
+    color: #fff;
+    background-color: #3f51b5;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    text-transform: none;
+    
+}

@@ -1,0 +1,76 @@
+#footerComp{
+    margin: 0 auto;
+  // padding: 0px 1rem;
+  max-width: 1170px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background: #011C3A;
+}
+#footer{
+    background: #011C3A;
+    color: white;
+}
+.foottxt{
+    flex-wrap: wrap;
+}
+#footImg{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+#headingFooter{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+#footcomp1{
+    width: 20%;
+    padding-right: 30px;
+}
+.Footercontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.arrow.MuiSvgIcon-root {
+    height: 15px;
+    width: 15px;
+    padding-right: 10px;
+}
+.arrowData{
+    padding: 8px;
+}
+.arrowData:hover{
+    background-color: black;
+    opacity: 0.5;
+    width: 220px;
+}
+#input{
+ background: #011C3A; 
+ border:0px;
+ outline: 0px;
+ color: #fff;
+
+}
+.field{
+ border:1px  solid rgba(0, 0, 0, 0.3);
+ display: flex;
+ align-items: center;
+ padding: 5px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ width:266px;
+}
+.field:hover{
+    border: 2px solid black;
+}
+.clicked{
+    border: 2px solid  #3f51b5;
+    display: flex;
+ align-items: center;
+ padding: 5px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ width:266px;
+}
+#footcomp2{
+    width: 25%;
+}

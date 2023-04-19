@@ -1,0 +1,34 @@
+#mobileData {
+  text-align: left;
+  padding-top: 180px;
+}
+#heading {
+  font-size: 42px;
+  
+}
+#checkIconData {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#checkIcon {
+  color: #3f51b5;
+}
+#data {
+  padding-right: 142px;
+}
+#viewData {
+  color: #3f51b5;
+  font-weight: 500;
+  padding-top: 50px;
+}
+#mobileImg {
+  box-shadow: none;
+}
+.container.MuiGrid-root {
+  margin: 0 auto;
+  // padding: 0px 1rem;
+  max-width: 1170px;
+}

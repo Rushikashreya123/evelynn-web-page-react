@@ -1,0 +1,60 @@
+#DownloadComp{
+    margin: 0 auto;
+  // padding: 0px 1rem;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top:150px;
+  margin-bottom: 80px;
+}
+#downloadHead{
+    font-size: 50px;
+    text-align: center;
+}
+#dataDownload{
+   
+    padding-top: 20px;
+     padding-bottom: 20px;
+    text-align: center;
+    max-width: 480px;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#downloadDec{
+    position: relative;
+}
+#downloadDec::before{
+    top: 0;
+    right: -520px;
+    width: 30vw;
+    height: 100%;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5 !important;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    overflow-x: hidden;
+}
+#downloadDec::after{
+    top: 0;
+    left: calc(-100vw + 50% - 300px);
+    width: 100vw;
+    height: 100%;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5 !important;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
